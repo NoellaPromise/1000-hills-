@@ -2,11 +2,10 @@ import React from 'react';
 import { FaFacebookF } from 'react-icons/fa';
 import { FiInstagram } from 'react-icons/fi';
 import { useHistory } from 'react-router';
-
 const Footer = (props) => {
   const history = useHistory();
 
-  const logout = () => {
+const logout = () => {
     localStorage.removeItem('jwt');
     localStorage.removeItem('name');
     localStorage.removeItem('email');
