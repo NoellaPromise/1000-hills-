@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+
 const Place = (props) => {
   const handleClick = (value) => {
     props.history.push(`/gallery/${value}`);
@@ -34,4 +35,5 @@ const Place = (props) => {
     </div>
   );
 };
+
 export default Place;
