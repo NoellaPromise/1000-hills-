@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { BsFillPlayFill } from "react-icons/bs";
+
 const Video = (props) => {
   const [display, setDisplay] = useState("hidden");
   return (
@@ -28,4 +29,5 @@ const Video = (props) => {
     </div>
   );
 };
+
 export default Video;
