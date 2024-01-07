@@ -3,7 +3,6 @@ import ReactPlayer from "react-player";
 import Video from "./Video";
 import { HiSearch } from "react-icons/hi";
 import { GrFormNextLink } from "react-icons/gr";
-
 const Videos = () => {
   const [mainVideo, setMainVideo] = useState(
     `${process.env.REACT_APP_BACKEND_URL}/uploads/LakeKivu.mp4`
@@ -79,5 +78,4 @@ const Videos = () => {
     </div>
   );
 };
-
 export default Videos;
