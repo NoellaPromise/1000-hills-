@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import { Editor } from "@tinymce/tinymce-react";
-
 const TintEditor = (props) => {
   const [value, setValue] = useState("<p>Leave a message.</p>");
   return (
@@ -23,5 +22,4 @@ const TintEditor = (props) => {
     />
   );
 };
-
 export default TintEditor;
