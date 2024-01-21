@@ -1,5 +1,4 @@
 import React from "react";
-
 const HomePhoto = (props) => {
   return (
     <div className="w-80 h-44">
@@ -11,5 +10,4 @@ const HomePhoto = (props) => {
     </div>
   );
 };
-
 export default HomePhoto;
