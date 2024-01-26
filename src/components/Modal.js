@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { IoClose } from "react-icons/io5";
 import Backdrop from "./Backdrop";
-
 const Modal = (props) => {
   return (
     <Fragment>
@@ -27,5 +26,4 @@ const Modal = (props) => {
     </Fragment>
   );
 };
-
 export default Modal;
