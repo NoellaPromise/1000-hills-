@@ -21,5 +21,4 @@ const NavBarItem = (props) => {
     </NavLink>
   );
 };
-
 export default NavBarItem;
