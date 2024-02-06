@@ -19,11 +19,6 @@ const NavBarItem = (props) => {
     >
       {props.name}
     </NavLink>
-    // <li
-    //   className={classes}
-    // >
-    //   <Link to={props.link}>{props.name}</Link>
-    // </li>
   );
 };
 
