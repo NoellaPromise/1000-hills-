@@ -8,7 +8,6 @@ import Contact from "./containers/Contact";
 import Gallery from "./containers/Gallery";
 import { useState } from "react";
 import Adminpage from "./containers/Adminpage";
-
 const App = () => {
   const [isAuthenticated, setisAuthenticated] = useState(false);
   return (
@@ -79,5 +78,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;
