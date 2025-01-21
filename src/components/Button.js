@@ -1,4 +1,5 @@
 import React from "react";
+
 const Button = (props) => {
   let classes =
     "px-8 py-px bg-transparent hover:bg-main-button-color text-main-button-color hover:text-white border border-main-button-color hover:border-opacity-0 font-medium rounded";
@@ -12,4 +13,5 @@ const Button = (props) => {
     </button>
   );
 };
+
 export default Button;
