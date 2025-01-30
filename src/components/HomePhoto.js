@@ -12,5 +12,4 @@ const HomePhoto = (props) => {
   );
 };
 
-
 export default HomePhoto;
